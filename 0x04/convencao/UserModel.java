@@ -8,7 +8,7 @@ class UsersModels {
 
     public fetchUsers() { return [];}
 
-    public allUsers() {return [];}
+    public getAllUsers() {return [];}
 
     public getUsers() {return [];}
 
