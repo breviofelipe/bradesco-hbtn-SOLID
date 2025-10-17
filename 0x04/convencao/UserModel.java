@@ -6,9 +6,6 @@ class UsersModels {
 
     final static int IDADE_MINIMA = 18;
 
-    public getAllUsers() {
-        return [];
-    }
     public getUsers() {
         return [];
     }
