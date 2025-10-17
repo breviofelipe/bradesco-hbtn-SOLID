@@ -20,4 +20,10 @@ class UsersModels {
         return [];
     }
 
+// função que coleta todos os users
+
+    public getUsers() {
+        return [];
+    }
+
 }
