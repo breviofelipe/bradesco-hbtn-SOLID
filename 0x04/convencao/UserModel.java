@@ -1,5 +1,3 @@
-// classe users, representando nossa entidade
-
 class UsersModels {
 
     int idUser;
@@ -8,20 +6,10 @@ class UsersModels {
 
     final static int IDADE_MINIMA = 18;
 
-// função que coleta todos os users
-
-    public fetchUsers() { return [];}
-
-// função que coleta todos os users
-
     public getAllUsers() {
         return [];
     }
-
-// função que coleta todos os users
-
     public getUsers() {
         return [];
     }
-
 }
