@@ -1,10 +1,51 @@
-class UsersModels {
+import java.util.ArrayList;
+import java.util.List;
 
-    int idUser;
+public class UserModel {
 
-    String descricao;
+    private int idUser;
+    private String descricao;
 
-    final static int IDADE_MINIMA = 18;
+    public static final int IDADE_MINIMA = 18;
 
-    public getUsers() {return [];}
+    // Construtor
+    public UserModel() {
+    }
+
+    public UserModel(int idUser, String descricao) {
+        this.idUser = idUser;
+        this.descricao = descricao;
+    }
+
+    // Getters e Setters
+    public int getIdUser() {
+        return idUser;
+    }
+
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    // Função que coleta todos os usuários
+    public List<UserModel> fetchUsers() {
+        return new ArrayList<>();
+    }
+
+    // Função que retorna todos os usuários
+    public List<UserModel> getAllUsers() {
+        return new ArrayList<>();
+    }
+
+    // Função que retorna usuários (pode ter filtros futuros)
+    public List<UserModel> getUsers() {
+        return new ArrayList<>();
+    }
 }
